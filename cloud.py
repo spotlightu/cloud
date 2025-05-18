@@ -23,7 +23,10 @@ def bubble_sort(numbers):
                  sorted_list[i], sorted_list[j] = sorted_list[j], sorted_list[i]
     return sorted_list
 
-numbers = [1, 3, 4, 7, 8, 10]
+numbers = []
+enter = input("Введите список чисел через запятую: ")
+for num in enter.split(','):
+        numbers.append(int(num.strip()))
 
 even_numbers = get_even_numbers(numbers)
 max_num = find_max(numbers)
