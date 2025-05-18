@@ -23,6 +23,7 @@ def bubble_sort(numbers):
                  sorted_list[i], sorted_list[j] = sorted_list[j], sorted_list[i]
     return sorted_list
 
+# чтение ввода от пользователя
 numbers = []
 enter = input("Введите список чисел через запятую: ")
 for num in enter.split(','):
