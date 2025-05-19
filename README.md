@@ -10,6 +10,7 @@ test_cloud.py — UI-тест с использованием библиотек
   * pytest==8.3.5 (для test_cloud.py)
 # Установка зависимостей
 ###### bash
+    pip install pytest
     pip install playwright
     playwright install
 
