@@ -5,8 +5,9 @@ test_cloud.py — UI-тест с использованием библиотек
 
 # Требования
 * Python 3.7 или выше
-* Библиотеки:
-  * playwright==1.32.0 (для test_cloud.py)
+* Используемые библиотеки:
+  * playwright==1.52.0 (для test_cloud.py)
+  * pytest==8.3.5 (для test_cloud.py)
 # Установка зависимостей
 ###### bash
     pip install playwright
